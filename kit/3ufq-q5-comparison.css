@@ -1,0 +1,38 @@
+/* q5 uses the same .fig, .tabs and .kfs controls as the other replies. */
+#q5 .vg-gallery { scroll-margin-top: 76px; position: relative; }
+#q5 .vg-anchor { position: absolute; top: 0; scroll-margin-top: 76px; }
+#q5 .vg-case-title { font-size: 15px; font-weight: 600; margin: 3px 0 4px; }
+#q5 .vg-note { font: 14px/1.7 var(--serif); color: var(--ink2); margin: 0 0 12px; }
+#q5 .vg-player .e2r-time { min-width: 0; }
+#q5 .vg-relation-heading { font: 12px/1.6 var(--sans); color: var(--muted); margin-bottom: 3px; }
+#q5 .vg-relation-svg { display: block; width: 100%; max-width: 100%; touch-action: none; user-select: none; cursor: ew-resize; }
+#q5 .vg-relation-svg text { font: 11px var(--sans); fill: var(--muted); }
+#q5 .vg-relation-svg .vg-math-label { font: italic 16px var(--serif); fill: var(--ink); }
+#q5 .vg-axis { stroke: #c6ccd3; stroke-width: 1; }
+#q5 .vg-reference { stroke: #929ca7; stroke-width: 1; stroke-dasharray: 5 4; }
+#q5 .vg-time-cursor { stroke: #606b79; stroke-width: 1; opacity: .5; pointer-events: none; }
+#q5 .vg-reference-point { cursor: pointer; }
+#q5 .vg-reference-point:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+#q5 .vg-relation-rule { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; margin-top: 6px; font: 12px/1.5 var(--sans); color: var(--muted); }
+#q5 .vg-relation-rule .math { font: italic 23px/1.3 var(--serif); color: var(--ink); }
+#q5 .vg-relation-explanation { font: 13px/1.6 var(--serif); color: var(--ink2); margin: 5px 0 12px; }
+#q5 .vg-annotation-heading { font: 12px/1.6 var(--sans); color: var(--muted); margin-top: 14px; }
+/* Match the compact video / evidence layout used in qD2Z's examples. */
+@media (min-width: 600px) {
+  #q5 .vg-player.e2r-player {
+    grid-template-columns: min(300px,40%) minmax(0,1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas: "v chart" "bar lab";
+    column-gap: 20px;
+    row-gap: 8px;
+  }
+  #q5 .vg-player .e2r-v { width: 100%; max-width: none; }
+  #q5 .vg-player .e2r-v video { max-height: 300px; }
+}
+
+/* Relation annotations use descriptive labels rather than a numerical score axis. */
+#q5 .vg-relation-svg .vg-reference-caption{font-size:12px;fill:var(--ink)}
+#q5 .vg-relation-svg .vg-anchor-time{font-size:11px;fill:var(--ink)}
+#q5 .vg-relation-svg .vg-loss-label{font-size:12px;fill:#a83d34}
+#q5 .vg-relation-svg .vg-retained-label{font-size:12px;fill:#8e6b20}
+#q5 .vg-outside{font:12px/1.5 var(--sans);color:var(--muted);margin:3px 0}

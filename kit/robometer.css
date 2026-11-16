@@ -1,0 +1,7 @@
+#why-robometer{margin-top:42px;padding-top:36px;border-top:1px solid var(--line);scroll-margin-top:20px}
+#why-robometer h2.question-title{font:600 30px/1.3 var(--serif);letter-spacing:normal;margin:0 0 22px;color:var(--ink)}
+#why-robometer .prose math{font-size:1em}
+@media(max-width:760px){#why-robometer h2.question-title{font-size:24px}}
+#robometer-mechanism-example .kfs{display:none}#robometer-mechanism-example .e2r-curve rect{fill:#c0463a}
+#robometer-mechanism-example .example-setup{margin-top:14px;color:var(--muted);font-size:14px}
+#robometer-mechanism-example summary{cursor:pointer}

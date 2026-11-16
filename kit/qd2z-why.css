@@ -1,0 +1,20 @@
+#why .evidence-links{display:flex;flex-wrap:wrap;gap:8px 20px;margin:16px 0 24px;font-size:14px}
+#why .more{margin:24px 0}
+#why .tabs{display:flex;flex-wrap:wrap;gap:8px}
+#why .table-wrap{overflow-x:auto}
+#why .fig-title{font:600 19px/1.5 var(--serif);margin-bottom:14px}
+#why .fig{scroll-margin-top:20px}
+#why .table-note{margin-top:10px}
+
+/* Keep video and progress together in the browser side panel. */
+@media(min-width:600px){
+  #why .player.e2r-player{
+    grid-template-columns:min(300px,40%) minmax(0,1fr);
+    grid-template-rows:auto auto;
+    grid-template-areas:"v chart" "bar lab";
+    column-gap:20px;
+    row-gap:8px;
+  }
+  #why .player .e2r-v{width:100%;max-width:none}
+  #why .player .e2r-v video{max-height:300px}
+}

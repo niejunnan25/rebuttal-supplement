@@ -1,0 +1,24 @@
+/* Shared kit styles. Each design sets these variables on :root (or a section):
+   --e-bg --e-fg --e-muted --e-grid --e-line --e-band --e-loss --e-reg --e-accent --e-font --e-panel */
+.e2r-svg{display:block;max-width:100%;overflow:visible;font-family:var(--e-font,inherit);user-select:none;touch-action:none}
+.e2r-curve,.e2r-ann,.e2r-chart{width:100%;min-width:0}
+.e2r-player{display:flex;flex-direction:column;gap:10px;min-width:0;color:var(--e-fg,#111);font-family:var(--e-font,inherit)}
+.e2r-v{background:#000;border-radius:var(--e-radius,8px);overflow:hidden;line-height:0}
+.e2r-v video{width:100%;height:auto;max-height:62vh;display:block;object-fit:contain;background:#000}
+.e2r-bar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-size:13px}
+.e2r-time{font-variant-numeric:tabular-nums;color:var(--e-muted,#6b7280);min-width:13em}
+.e2r-speeds{display:inline-flex;gap:4px;margin-left:auto}
+.e2r-btn{font:inherit;font-size:13px;border:1px solid var(--e-grid,#d1d5db);background:var(--e-panel,transparent);color:inherit;border-radius:var(--e-btnr,6px);padding:4px 11px;cursor:pointer;line-height:1.4}
+.e2r-btn:hover{border-color:var(--e-accent,#1f4fa3)}
+.e2r-btn.is-on,.e2r-play{background:var(--e-accent,#1f4fa3);border-color:var(--e-accent,#1f4fa3);color:var(--e-on-accent,#fff)}
+.e2r-lab{margin:0;font-size:12px;color:var(--e-muted,#6b7280)}
+.e2r-wins{display:flex;flex-wrap:wrap;gap:6px}
+.e2r-chip{font:inherit;font-size:12.5px;border:1px solid var(--e-grid,#d1d5db);background:transparent;color:inherit;border-radius:999px;padding:3px 11px;cursor:pointer}
+.e2r-chip:hover{border-color:var(--e-accent,#1f4fa3);color:var(--e-accent,#1f4fa3)}
+.e2r-modal{width:min(980px,94vw);max-height:94vh;border:0;border-radius:var(--e-radius-l,14px);padding:0;background:var(--e-modal-bg,var(--e-bg,#fff));color:var(--e-fg,#111);box-shadow:0 30px 80px rgba(0,0,0,.35)}
+.e2r-modal::backdrop{background:rgba(10,14,22,.62)}
+.e2r-mhead{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;padding:18px 22px 6px}
+.e2r-mkind{margin:0 0 2px;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--e-muted,#6b7280)}
+.e2r-mtitle{margin:0;font-size:20px;font-family:var(--e-head,inherit)}
+.e2r-mbody{padding:10px 22px 22px}
+[data-open]{cursor:pointer}

@@ -1,0 +1,7 @@
+#cost .rec{margin:24px 0 30px;padding:20px 0 6px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+#cost .rec video{display:block;width:100%;height:auto;border-radius:8px;background:#0f1115}
+#cost .rec figcaption{font-family:var(--serif);font-size:15px;line-height:1.7;color:#38414b;margin:14px 0 10px}
+#cost .rec figcaption b{font-family:var(--sans);font-size:13.5px;margin-right:6px}
+#cost .table-wrap{overflow-x:auto;margin:6px 0 4px}
+#cost tbody th{font-weight:400;text-align:left}
+#cost .draft{font-family:var(--sans);font-size:13px;color:#8a5a00;background:#fff7e6;border:1px solid #f1d9a8;border-radius:8px;padding:8px 12px;margin:18px 0}

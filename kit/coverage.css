@@ -1,0 +1,6 @@
+#task-coverage{margin-top:42px;padding-top:36px;border-top:1px solid var(--line)}
+#task-coverage .paper-figure img{display:block;width:100%;height:auto}
+#task-coverage .paper-figure .note{margin-top:8px}
+.top nav{flex:1 1 100%;order:3;gap:8px 16px}
+#coverage-auc table{min-width:660px}
+#coverage-auc .table-wrap{overflow-x:auto}

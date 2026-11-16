@@ -1,0 +1,20 @@
+/* Only the assembly section: camera-only video plus the site's shared SVG player. */
+#assembly .as-gallery{margin:28px 0;padding:22px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+#assembly .as-title{font:600 20px/1.45 var(--serif);margin:0 0 16px}
+#assembly .as-tasks{margin-bottom:10px}
+#assembly .as-cases{display:flex;gap:0;margin-bottom:16px;border-bottom:1px solid var(--line)}
+#assembly .as-cases button{flex:1;padding:9px 6px;border:0;border-bottom:2px solid transparent;border-radius:0;background:transparent;color:var(--muted);font:500 13px/1.5 var(--sans)}
+#assembly .as-cases button[aria-selected="true"]{border-bottom-color:var(--accent);background:transparent;color:var(--accent);font-weight:600}
+#assembly .as-cases button:hover{background:rgba(31,79,143,.04);color:var(--accent)}
+#assembly .as-case-title{font:600 17px/1.5 var(--serif);margin:0 0 12px}
+#assembly .as-view-labels{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0 0 6px;color:var(--muted);font:12px/1.5 var(--sans)}
+#assembly .as-player.e2r-player{display:flex;flex-direction:column;gap:10px;width:100%}
+#assembly .as-player .e2r-v{width:100%;max-width:none;aspect-ratio:23/10;border-radius:4px;background:#172022}
+#assembly .as-player .e2r-v video{width:100%;height:100%;max-height:none;object-fit:contain}
+#assembly .as-player .e2r-bar{width:100%;gap:10px;margin:0}
+#assembly .as-player .e2r-speeds{margin-left:auto}
+#assembly .as-player .e2r-chart{margin-top:4px}
+#assembly .as-player .e2r-lab{width:100%}
+#assembly .as-controls{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 0}
+#assembly button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+@media(max-width:600px){#assembly .as-gallery{padding:16px 0}#assembly .as-title{font-size:18px}#assembly .as-player .e2r-bar{gap:8px}#assembly .as-player .e2r-speeds{margin-left:auto}#assembly .as-view-labels{font-size:11px}}

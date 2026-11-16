@@ -1,0 +1,14 @@
+#real-robot .reply-subheading{font-size:20px;line-height:1.45;margin:32px 0 16px}
+#real-robot .task-heading{font-size:16px;line-height:1.4;margin:24px 0 8px}
+#real-robot .table-wrap{overflow-x:auto;margin:8px 0 22px}
+#real-robot table{width:100%;min-width:330px;border-collapse:collapse;font-variant-numeric:tabular-nums}
+#real-robot th{vertical-align:bottom}
+#real-robot tbody th{font-weight:400;border-bottom:1px solid var(--line);white-space:nowrap}
+#real-robot td.num{text-align:right;white-space:nowrap}
+#real-robot thead th:not(:first-child){text-align:right}
+#real-robot .timeline-scroll{overflow-x:auto}
+#real-robot .timeline-scroll img{display:block;width:100%;max-width:none;height:auto}
+#real-robot .timeline-figure{margin:24px 0 32px}
+#real-robot .timeline-figure .note{margin-top:8px}
+#real-robot .quote+.quote{margin-top:-10px}
+@media(max-width:600px){#real-robot .timeline-scroll img{min-width:780px}#real-robot th,#real-robot td{padding:8px 6px;font-size:12px}}

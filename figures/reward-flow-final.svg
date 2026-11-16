@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="956" height="257" viewBox="1 19 956 257" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif"><defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="#6b7380"/></marker><pattern id="hz" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#f1f2f4"/><line x1="0" y1="0" x2="0" y2="6" stroke="#c9ced6" stroke-width="1.6"/></pattern></defs><rect x="1" y="19" width="956" height="257" fill="white"/><text x="106" y="76.0" font-size="14" fill="#1d2330" text-anchor="end" font-weight="600">Actor</text>
+<text x="106" y="141.0" font-size="14" fill="#1d2330" text-anchor="end" font-weight="600">Reward model</text>
+<text x="106" y="206.0" font-size="14" fill="#1d2330" text-anchor="end" font-weight="600">Learner</text>
+<rect x="273.12" y="55" width="178.2" height="32" rx="5" fill="url(#hz)" stroke="#c9ced6"/>
+<text x="362.22" y="76.0" font-size="13" fill="#1d2330" text-anchor="middle" font-weight="400">Reset</text>
+<rect x="604.44" y="55" width="43.559999999999945" height="32" rx="5" fill="url(#hz)" stroke="#c9ced6"/>
+<rect x="120.0" y="55" width="153.12" height="32" rx="5" fill="#2557a7" stroke="none"/>
+<text x="196.56" y="76.0" font-size="13" fill="white" text-anchor="middle" font-weight="400">Episode</text>
+<rect x="451.32" y="55" width="153.12000000000006" height="32" rx="5" fill="#2557a7" stroke="none"/>
+<text x="527.88" y="76.0" font-size="13" fill="white" text-anchor="middle" font-weight="400">Episode</text>
+<rect x="273.12" y="120" width="133.32" height="32" rx="5" fill="#fbe7d3" stroke="#d9822b" stroke-dasharray="4 3"/>
+<rect x="273.12" y="120" width="91.07999999999998" height="32" rx="5" fill="#d9822b" stroke="none"/>
+<text x="318.65999999999997" y="141.0" font-size="13" fill="white" text-anchor="middle" font-weight="400">Reward</text>
+<rect x="604.44" y="120" width="43.559999999999945" height="32" rx="5" fill="#d9822b" stroke="none"/>
+<rect x="273.12" y="185" width="178.2" height="32" rx="5" fill="url(#hz)" stroke="#c9ced6"/>
+<text x="362.22" y="206.0" font-size="13" fill="#6b7380" text-anchor="middle" font-weight="400">Pause</text>
+<rect x="604.44" y="185" width="43.559999999999945" height="32" rx="5" fill="url(#hz)" stroke="#c9ced6"/>
+<rect x="120.0" y="185" width="153.12" height="32" rx="5" fill="#eef1f8" stroke="#2557a7"/>
+<line x1="128.0" y1="192" x2="128.0" y2="210" stroke="#2557a7" stroke-opacity=".45" stroke-width="2"/>
+<line x1="142.0" y1="192" x2="142.0" y2="210" stroke="#2557a7" stroke-opacity=".45" stroke-width="2"/>
+<line x1="156.0" y1="192" x2="156.0" y2="210" stroke="#2557a7" stroke-opacity=".45" stroke-width="2"/>
+<line x1="240.0" y1="192" x2="240.0" y2="210" stroke="#2557a7" stroke-opacity=".45" stroke-width="2"/>
+<line x1="254.0" y1="192" x2="254.0" y2="210" stroke="#2557a7" stroke-opacity=".45" stroke-width="2"/>
+<text x="196.56" y="206.0" font-size="13" fill="#2557a7" text-anchor="middle" font-weight="600" paint-order="stroke" stroke="#eef1f8" stroke-width="6">Update</text>
+<rect x="451.32" y="185" width="153.12000000000006" height="32" rx="5" fill="#eef1f8" stroke="#2557a7"/>
+<line x1="459.32" y1="192" x2="459.32" y2="210" stroke="#2557a7" stroke-opacity=".45" stroke-width="2"/>
+<line x1="473.32" y1="192" x2="473.32" y2="210" stroke="#2557a7" stroke-opacity=".45" stroke-width="2"/>
+<line x1="487.32" y1="192" x2="487.32" y2="210" stroke="#2557a7" stroke-opacity=".45" stroke-width="2"/>
+<line x1="571.3199999999999" y1="192" x2="571.3199999999999" y2="210" stroke="#2557a7" stroke-opacity=".45" stroke-width="2"/>
+<line x1="585.3199999999999" y1="192" x2="585.3199999999999" y2="210" stroke="#2557a7" stroke-opacity=".45" stroke-width="2"/>
+<text x="527.88" y="206.0" font-size="13" fill="#2557a7" text-anchor="middle" font-weight="600" paint-order="stroke" stroke="#eef1f8" stroke-width="6">Update</text>
+<path d="M273.12,51 V45 H451.32 V51" fill="none" stroke="#6b7380" stroke-width="1.2"/>
+<text x="362.22" y="39" font-size="12" fill="#6b7380" text-anchor="middle" font-weight="400">≈ 13.5 s</text>
+<text x="411.44" y="141.0" font-size="12" fill="#d9822b" text-anchor="start" font-weight="400">≈ 10 s</text>
+<line x1="276.12" y1="89" x2="276.12" y2="117" stroke="#6b7380" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="120" y1="233" x2="648.0" y2="233" stroke="#6b7380"/>
+<line x1="120.0" y1="233" x2="120.0" y2="238" stroke="#6b7380"/>
+<text x="120.0" y="251" font-size="11" fill="#6b7380" text-anchor="middle" font-weight="400">0</text>
+<line x1="252.0" y1="233" x2="252.0" y2="238" stroke="#6b7380"/>
+<text x="252.0" y="251" font-size="11" fill="#6b7380" text-anchor="middle" font-weight="400">10</text>
+<line x1="384.0" y1="233" x2="384.0" y2="238" stroke="#6b7380"/>
+<text x="384.0" y="251" font-size="11" fill="#6b7380" text-anchor="middle" font-weight="400">20</text>
+<line x1="516.0" y1="233" x2="516.0" y2="238" stroke="#6b7380"/>
+<text x="516.0" y="251" font-size="11" fill="#6b7380" text-anchor="middle" font-weight="400">30</text>
+<line x1="648.0" y1="233" x2="648.0" y2="238" stroke="#6b7380"/>
+<text x="648.0" y="251" font-size="11" fill="#6b7380" text-anchor="middle" font-weight="400">40</text>
+<text x="648.0" y="267" font-size="11" fill="#6b7380" text-anchor="end" font-weight="400">Time (s)</text>
+<g transform="translate(681.1,67.0) scale(0.75)"><text x="237.5" y="14" font-size="15.5" fill="#1d2330" text-anchor="middle" font-weight="600">Reward time per episode (s)</text><text x="132" y="54.5" font-size="15" fill="#1d2330" text-anchor="end" font-weight="400">Event2Reward</text><rect x="140" y="34" width="89.7" height="28" rx="3" fill="#d9822b" stroke="none"/><text x="234.7" y="54.5" font-size="14.5" fill="#6b7380" text-anchor="start" font-weight="400">6.9</text><text x="132" y="98.5" font-size="15" fill="#1d2330" text-anchor="end" font-weight="400">Robometer</text><rect x="140" y="78" width="85.8" height="28" rx="3" fill="#c4b49f" stroke="none"/><text x="230.8" y="98.5" font-size="14.5" fill="#6b7380" text-anchor="start" font-weight="400">6.6</text><text x="132" y="142.5" font-size="15" fill="#1d2330" text-anchor="end" font-weight="400">Robo-Dopamine</text><rect x="140" y="122" width="131.29999999999998" height="28" rx="3" fill="#c4b49f" stroke="none"/><text x="276.29999999999995" y="142.5" font-size="14.5" fill="#6b7380" text-anchor="start" font-weight="400">10.1</text><line x1="140" y1="160" x2="335" y2="160" stroke="#6b7380"/><line x1="140" y1="160" x2="140" y2="164" stroke="#6b7380"/><text x="140" y="179" font-size="14" fill="#6b7380" text-anchor="middle" font-weight="400">0</text><line x1="205" y1="160" x2="205" y2="164" stroke="#6b7380"/><text x="205" y="179" font-size="14" fill="#6b7380" text-anchor="middle" font-weight="400">5</text><line x1="270" y1="160" x2="270" y2="164" stroke="#6b7380"/><text x="270" y="179" font-size="14" fill="#6b7380" text-anchor="middle" font-weight="400">10</text><line x1="335" y1="160" x2="335" y2="164" stroke="#6b7380"/><text x="335" y="179" font-size="14" fill="#6b7380" text-anchor="middle" font-weight="400">15</text><line x1="315.5" y1="28" x2="315.5" y2="160" stroke="#2557a7" stroke-width="1.6" stroke-dasharray="5 4"/><text x="315.5" y="200" font-size="14.5" fill="#2557a7" text-anchor="middle" font-weight="400">gap ≈ 13.5 s</text></g></svg>

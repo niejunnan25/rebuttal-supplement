@@ -1,0 +1,4 @@
+/* Only the two case groups for 3ufq W3. */
+#q4 .case-title{font-family:var(--serif);font-size:20px;line-height:1.45;font-weight:600;letter-spacing:0;margin:0 0 8px;color:var(--ink)}
+#q4 .case-guide{font-size:14px;line-height:1.75;color:var(--ink2);margin:0 0 16px}
+@media(max-width:760px){#q4 .case-title{font-size:18px}}

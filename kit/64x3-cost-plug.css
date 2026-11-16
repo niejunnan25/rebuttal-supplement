@@ -1,0 +1,50 @@
+:is(#real-robot,#vlm) .cost-plug{font-family:var(--sans);color:var(--ink);margin:24px 0 32px;padding:22px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+:is(#real-robot,#vlm) .cost-plug-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:24px;align-items:start}
+:is(#real-robot,#vlm) .cost-plug video{display:block;width:100%;height:auto;border-radius:6px;background:#f3f5f8;cursor:pointer}
+:is(#real-robot,#vlm) .cost-plug-time{display:block;font-size:46px;line-height:1.1;font-weight:600;font-variant-numeric:tabular-nums;margin:5px 0 7px;color:#1f4f8f}
+:is(#real-robot,#vlm) .cost-plug-label{font-size:12px;color:var(--muted);line-height:1.5}
+:is(#real-robot,#vlm) .cost-plug dl{display:grid;gap:12px;margin:20px 0}
+:is(#real-robot,#vlm) .cost-plug dt{font-size:12px;color:var(--muted);margin-bottom:3px}
+:is(#real-robot,#vlm) .cost-plug dd{font-size:14px;margin:0;font-variant-numeric:tabular-nums;line-height:1.5}
+:is(#real-robot,#vlm) .cost-plug-streak{font-size:13px;display:flex;justify-content:space-between;margin:16px 0 8px}
+:is(#real-robot,#vlm) .cost-plug-streak b{color:#1f4f8f;font-variant-numeric:tabular-nums}
+:is(#real-robot,#vlm) .cost-plug-cells{display:grid;grid-template-columns:repeat(10,1fr);gap:4px}
+:is(#real-robot,#vlm) .cost-plug-cells i{height:14px;background:#eef1f5;border:1px solid #dde3ea;border-radius:3px}
+:is(#real-robot,#vlm) .cost-plug-cells i.on{background:#1f4f8f;border-color:#1f4f8f}
+:is(#real-robot,#vlm) .cost-plug-controls{display:flex;align-items:center;gap:12px;margin:14px 0}
+:is(#real-robot,#vlm) .cost-plug-controls input{flex:1;min-width:0;accent-color:#1f4f8f;cursor:pointer}
+:is(#real-robot,#vlm) .cost-plug button{font:inherit;font-size:12px;border:1px solid var(--line);border-radius:5px;background:white;color:var(--ink);padding:8px 10px;cursor:pointer}
+:is(#real-robot,#vlm) .cost-plug button:hover{background:#f1f5fa;border-color:#1f4f8f}
+:is(#real-robot,#vlm) .cost-plug button:focus-visible,:is(#real-robot,#vlm) .cost-plug input:focus-visible{outline:2px solid #1f4f8f;outline-offset:3px}
+:is(#real-robot,#vlm) .cost-plug-comparison{border-top:1px solid var(--line);margin-top:22px;padding-top:16px;font-size:12px}
+:is(#real-robot,#vlm) .cost-plug-comparison-title{font-size:13px;margin:0 0 14px;color:var(--muted)}
+:is(#real-robot,#vlm) .cost-plug-bar{display:grid;grid-template-columns:104px minmax(0,1fr);gap:10px;align-items:center;margin:12px 0}
+:is(#real-robot,#vlm) .cost-plug-track{height:15px;margin-right:55px;position:relative}
+:is(#real-robot,#vlm) .cost-plug-track i,:is(#real-robot,#vlm) .cost-plug-track s{display:block;position:absolute;left:0;top:0;height:100%;background:#c9ced6;border-radius:0 3px 3px 0}
+:is(#real-robot,#vlm) .cost-plug-track s{background:#e3e9f3}
+:is(#real-robot,#vlm) .cost-plug-track i[data-plug]{background:#1f4f8f}
+:is(#real-robot,#vlm) .cost-plug-track b{position:absolute;white-space:nowrap;top:0;padding-left:8px;font-size:12px;font-weight:500}
+:is(#real-robot,#vlm) .cost-plug figcaption{font-family:var(--serif);font-size:15px;line-height:1.7;margin-top:18px;color:#38414b}
+:is(#real-robot,#vlm) .cost-plug figcaption b{font-family:var(--sans);font-size:13.5px}
+@media(max-width:700px){:is(#real-robot,#vlm) .cost-plug-grid{grid-template-columns:1fr;gap:16px}:is(#real-robot,#vlm) .cost-plug-summary{display:grid;grid-template-columns:1fr 1fr;gap:0 20px}:is(#real-robot,#vlm) .cost-plug dl{margin:0;grid-row:1 / span 2;grid-column:2}:is(#real-robot,#vlm) .cost-plug-time{font-size:38px}:is(#real-robot,#vlm) .cost-plug-streak,:is(#real-robot,#vlm) .cost-plug-cells{grid-column:1 / -1}}
+:is(#real-robot,#vlm) .cost-plug-trials{margin-top:24px}
+:is(#real-robot,#vlm) .cost-plug-trial-row{display:flex;gap:3px;position:relative;touch-action:none;height:24px;cursor:ew-resize}
+:is(#real-robot,#vlm) .cost-plug-trial-row:focus-visible{outline:2px solid #1f4f8f;outline-offset:4px}
+:is(#real-robot,#vlm) .cost-plug-trial-row button.cost-plug-trial{flex-basis:0;min-width:0;position:relative;margin:0;padding:0;border-radius:2px;border:1px solid #dce2e8;background:#fff;overflow:hidden;cursor:ew-resize}
+:is(#real-robot,#vlm) .cost-plug-trial-row button.group-end{margin-right:5px}
+:is(#real-robot,#vlm) .cost-plug-trial-row button.done.warmup{background:#f2c995;border-color:#d5a265}
+:is(#real-robot,#vlm) .cost-plug-trial-row button.done.failure{background:#f1f3f6;border-color:#b5beca}
+:is(#real-robot,#vlm) .cost-plug-trial-row button.done.success{background:#1f4f8f;border-color:#1f4f8f}
+:is(#real-robot,#vlm) .cost-plug-trial-row button.current{border:2px solid #1f4f8f}
+:is(#real-robot,#vlm) .cost-plug-trial-row button i{display:block;height:100%;background:#bfd1e6;width:0;pointer-events:none}
+:is(#real-robot,#vlm) .cost-plug-trial-phases{position:relative;height:34px;margin-top:5px}
+:is(#real-robot,#vlm) .cost-plug-trial-phases span{position:absolute;top:0;text-align:center;border-top:2px solid #dce2e8;font-size:11px;line-height:1.4;padding-top:5px;color:var(--muted)}
+:is(#real-robot,#vlm) .cost-plug-trial-phases span:last-child{border-color:#1f4f8f;color:#1f4f8f}
+:is(#real-robot,#vlm) .cost-plug-trial-legend{display:flex;flex-wrap:wrap;align-items:center;gap:7px 12px;color:var(--muted);font-size:11px;line-height:1.5;margin-top:3px}
+:is(#real-robot,#vlm) .cost-plug-trial-legend span{display:inline-flex;gap:5px;align-items:center}
+:is(#real-robot,#vlm) .cost-plug-trial-legend i{width:10px;height:10px;display:inline-block;border-radius:2px}
+:is(#real-robot,#vlm) .cost-plug-trial-legend i.warmup{background:#f2c995;border:1px solid #d5a265}
+:is(#real-robot,#vlm) .cost-plug-trial-legend i.failure{background:#f1f3f6;border:1px solid #b5beca}
+:is(#real-robot,#vlm) .cost-plug-trial-legend i.success{background:#1f4f8f}
+:is(#real-robot,#vlm) .cost-plug-trial-legend .cost-plug-trial-hint{margin-left:auto}
+@media(max-width:700px){:is(#real-robot,#vlm) .cost-plug-trial-row{gap:2px}:is(#real-robot,#vlm) .cost-plug-trial-row button.group-end{margin-right:2px}:is(#real-robot,#vlm) .cost-plug-trial-phases{height:44px}:is(#real-robot,#vlm) .cost-plug-trial-phases span{font-size:10px}:is(#real-robot,#vlm) .cost-plug-trial-legend .cost-plug-trial-hint{width:100%;margin-left:0}}

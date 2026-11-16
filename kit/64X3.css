@@ -1,0 +1,4 @@
+#collapse .prose math{font-size:1em}
+#collapse .quote+.quote{margin-top:-10px}
+#collapse .response-paragraph{margin:0 0 1em}
+#collapse .response-paragraph p:last-child{margin-bottom:0}

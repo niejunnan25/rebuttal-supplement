@@ -1,0 +1,1 @@
+(() => { const observer = new ResizeObserver(entries => { for (const {target} of entries) target.classList.toggle('math-scrollable', target.scrollWidth > target.clientWidth + 1); }); document.querySelectorAll('.equation').forEach(n => observer.observe(n)); })();

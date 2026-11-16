@@ -1,0 +1,50 @@
+#adaptation{margin-top:42px;padding-top:36px;border-top:1px solid var(--line)}
+#adaptation .annotation-heading{font-weight:650;font-size:16px;margin:0 0 14px}
+#adaptation .annotation-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:20px;align-items:start}
+#adaptation video{display:block;width:100%;aspect-ratio:2/1;background:#12161c;border-radius:5px}
+#adaptation .annotation-views{display:grid;grid-template-columns:1fr 1fr;text-align:center;color:var(--muted);font-size:11px;margin-bottom:4px}
+#adaptation .annotation-controls{display:flex;gap:7px;flex-wrap:wrap;align-items:center;margin-top:10px}
+#adaptation .annotation-controls output{font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+#adaptation .annotation-controls select{font:inherit;font-size:12px;border:1px solid var(--line);background:white;padding:4px;border-radius:4px}
+#adaptation .annotation-type{margin:0 0 8px;padding:9px 12px;background:#f2edf8;border-left:3px solid #7960ad;font-size:14px}
+#adaptation [data-annotation="stall"] .annotation-type{background:#fff3de;border-color:#b8862c}
+#adaptation .annotation-type small{display:block;color:var(--muted);font-size:11px}
+#adaptation .annotation-timeline{width:100%;display:block;touch-action:none;cursor:ew-resize;user-select:none}
+#adaptation .annotation-scrub{width:100%;margin:0;accent-color:var(--accent)}
+#adaptation .annotation-instruction{font-size:12px;color:var(--muted);margin:7px 0 0;line-height:1.6}
+#adaptation .annotation-moments{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:18px 0 0}
+#adaptation .annotation-moment{padding:0 0 8px;min-width:0;text-align:left;border:1px solid var(--line);border-radius:5px;background:white;cursor:pointer;color:var(--ink2);font:inherit;font-size:12px;overflow:hidden}
+#adaptation .annotation-moment img{display:block;width:100%;aspect-ratio:2/1;object-fit:contain;background:#111}
+#adaptation .annotation-moment b,#adaptation .annotation-moment span{display:block;margin:6px 9px 0;line-height:1.45}
+#adaptation .annotation-moment b{font-size:13px}
+#adaptation .annotation-moment span{color:var(--muted)}
+#adaptation .annotation-moment[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+#adaptation .annotation-moment[data-role="context"]{border-style:dashed}
+#adaptation .annotation-error{font-size:12px;color:#a32121}
+@media(max-width:600px){#adaptation .annotation-grid{grid-template-columns:1fr;gap:14px}#adaptation .annotation-moments{gap:6px}#adaptation .annotation-moment b,#adaptation .annotation-moment span{margin-left:6px;margin-right:6px;font-size:11px}#adaptation .annotation-heading{font-size:15px}}
+
+/* Three-task annotation gallery. Enlarging only changes the viewport. */
+#adaptation .annotation-panel[hidden]{display:none}
+#adaptation .annotation-gallery{margin-top:32px}
+#adaptation .annotation-task-tabs{margin-top:20px}
+#adaptation .annotation-case-tabs button{border-radius:5px}
+#adaptation .annotation-real-figure .annotation-grid{grid-template-columns:1fr}
+#adaptation .annotation-real-figure video{aspect-ratio:8/5;border-radius:0;transition:transform .15s}
+#adaptation .annotation-video-frame{aspect-ratio:8/5;overflow:hidden;background:#111;border-radius:5px}
+#adaptation .annotation-real-figure .annotation-grid{gap:14px}
+#adaptation .annotation-real-figure .annotation-grid>div:nth-child(2){display:grid;grid-template-columns:200px minmax(0,1fr);grid-template-rows:46px 16px auto;column-gap:20px;row-gap:0;align-items:stretch}
+#adaptation .annotation-real-figure .annotation-type{grid-row:1/3;margin:0;display:flex;flex-direction:column;justify-content:center;padding:7px 12px}
+#adaptation .annotation-real-figure .annotation-timeline{height:46px;transform:translateY(-6px)}
+#adaptation .annotation-real-figure .annotation-scrub{height:16px;align-self:end}
+#adaptation .annotation-real-figure .annotation-instruction{grid-column:1/-1;margin-top:6px}
+#adaptation .annotation-real-figure .annotation-moments{grid-template-columns:repeat(3,minmax(0,1fr));margin-top:12px}
+#adaptation .annotation-real-figure:not(:has([data-role="end"])) .annotation-moments{grid-template-columns:repeat(2,minmax(0,1fr))}
+#adaptation .annotation-real-figure .annotation-moment img{aspect-ratio:8/5}
+@media(max-width:600px){
+ #adaptation .annotation-real-figure .annotation-grid>div:nth-child(2){grid-template-columns:144px minmax(0,1fr);column-gap:12px}
+ #adaptation .annotation-real-figure .annotation-type{padding:7px 9px;font-size:13px}
+}
+
+#adaptation .annotation-timeline [data-anchor-seek]{cursor:pointer}
+
+#adaptation .annotation-timeline [data-cursor]{pointer-events:none}

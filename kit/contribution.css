@@ -1,0 +1,5 @@
+#contribution{padding-bottom:40px;margin-bottom:40px;border-bottom:1px solid var(--line)}
+#contribution .prose math{font-size:1em}
+#robometer-progress-comparison .kfs,#event-supervision-comparison .kfs{display:none}
+#robometer-progress-comparison .example-setup{margin-top:14px;color:var(--muted);font-size:14px}
+#robometer-progress-comparison .example-setup summary{cursor:pointer}
